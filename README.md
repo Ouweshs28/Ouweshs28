@@ -20,12 +20,12 @@ My name is Ouwesh Seeroo and I'm a software developer/DevOps engineer. I'm from 
 </a>
 
 <a href="https://github.com/Ouweshs28/LET-VIU-Application">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Ouweshs28&repo=LET-VIU-Application-blueprint&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Ouweshs28&repo=LET-VIU-Application&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
 </a>
 
 
 <a href="https://github.com/Ouweshs28/AR-Application-for-museum">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Ouweshs28&repo=AR-Application-for-museum-blueprint&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Ouweshs28&repo=AR-Application-for-museum&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
 </a>    
 
 <!-- links to social media icons -->
