@@ -1,6 +1,6 @@
 # Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
-My name is Ouwesh Seeroo and I'm final year Computer Science Student at Middlesex University. I'm from Mauritius, and currently Devloper Student Club Campua Lead / Mircosoft Student Ambassador (beta). You can find me on [![Twitter][1.2]][1],  or on [![LinkedIn][3.2]][3].
+My name is Ouwesh Seeroo and I'm a Software Enginer. I'm from Mauritius, and  Devloper Student Club Alumni / Mircosoft Student Ambassador (beta). You can find me on [![Twitter][1.2]][1],  or on [![LinkedIn][3.2]][3].
 
 ## 🔧 Technologies & Tools
 ![](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
