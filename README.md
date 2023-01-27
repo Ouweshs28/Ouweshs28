@@ -1,6 +1,6 @@
 # Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
-My name is Ouwesh Seeroo and I'm a Software Enginer. I'm from Mauritius, and  Devloper Student Club Alumni / Mircosoft Student Ambassador (beta). You can find me on [![Twitter][1.2]][1],  or on [![LinkedIn][3.2]][3].
+My name is Ouwesh Seeroo and I am a software engineer with 2 years of experience, I have a strong background in Java and Spring Boot, as well as experience with Maven and Docker. I am a highly motivated and results-driven individual who is always looking to improve my skills and knowledge. I have a good understanding of building, deploying and maintaining applications using these technologies. Additionally, I have held leadership roles in several student organizations, including Microsoft Student Ambassador and Google Developer Students Club Lead, where I have gained valuable experience in team management and project coordination. I am excited to continue to build my career in the software development industry and am always open to new challenges and opportunities.. You can find me on [![Twitter][1.2]][1],  or on [![LinkedIn][3.2]][3].
 
 ## 🔧 Technologies & Tools
 ![](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
