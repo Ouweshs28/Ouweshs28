@@ -1,56 +1,45 @@
-# Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
+# Hi, I'm Ouwesh Seeroo
 
-Passionate Senior Java Developer with 4+ years of hands-on backend development experience in Java and Spring Boot. Skilled at building scalable microservices and optimizing application performance. Enjoys mentoring junior developers and has led critical projects including major system migrations and new feature design, while always championing code quality and best practices. Recognized in national-level tech competitions, reflecting a drive for innovation and excellence. You can find me on [![Twitter][1.2]][1],  or on [![LinkedIn][3.2]][3].
+**Senior Java Backend Developer** building reliable, scalable services with Java and Spring Boot.
 
-## 🔧 Technologies & Tools
-![](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
-![](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![](https://img.shields.io/badge/Microsoft-666666?style=for-the-badge&logo=microsoft&logoColor=white)
-![](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-![](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)
+I lead modernization initiatives, design maintainable microservice solutions, and raise engineering standards through clean code, pragmatic design patterns, and Git mentorship. I also contribute to open-source Java projects that help teams automate safer framework upgrades and improve performance.
 
+## Current focus
 
+- Modernizing Java and Spring applications with [OpenRewrite](https://github.com/openrewrite/rewrite-spring)
+- Improving query performance and maintainability through [QueryDSL](https://github.com/OpenFeign/querydsl)
+- Building reliable microservice solutions and helping teams improve engineering practices
 
-## &#x1f4c8; GitHub Stats
+## Technologies & tools
 
-<a href="https://github.com/Ouweshs28/Ouweshs28/">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ouweshs28&html&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Quarkus](https://img.shields.io/badge/Quarkus-4695EB?style=for-the-badge&logo=quarkus&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+## Open-source contributions
+
+- [OpenRewrite Spring](https://github.com/openrewrite/rewrite-spring/pulls?q=is%3Apr+author%3AOuweshs28) - automated Spring Boot migration recipes, including MockMvc test configuration support for Spring Boot 4.
+- [QueryDSL](https://github.com/OpenFeign/querydsl/pull/1871) - improved serializer constant storage by replacing `LinkedList` with `ArrayList`.
+- [Blaze-Persistence](https://github.com/Blazebit/blaze-persistence/pull/2125) - added Jackson 3 integration for entity-view deserialization.
+
+## GitHub stats
+
+<a href="https://github.com/Ouweshs28">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ouweshs28&theme=github_dark" alt="Ouwesh Seeroo's GitHub contribution summary" />
 </a>
-<a href="https://github.com/Ouweshs28/Ouweshs28/">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Ouweshs28&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" alt="Ouweshs28's GitHub Stats" />
+
+<a href="https://github.com/Ouweshs28">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Ouweshs28&theme=github_dark" alt="Ouwesh Seeroo's GitHub statistics" />
 </a>
 
-<a href="https://github.com/Ouweshs28/LET-VIU-Application">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Ouweshs28&repo=LET-VIU-Application&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
-</a>
+## Connect
 
-
-<a href="https://github.com/Ouweshs28/AR-Application-for-museum">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Ouweshs28&repo=AR-Application-for-museum&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
-</a>    
-
-<!-- links to social media icons -->
-
-<!-- icons with padding -->
-
-[1.1]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
-[2.1]: http://i.imgur.com/0o48UoR.png (github icon with padding)
-
-<!-- icons without padding -->
-
-[1.2]: http://i.imgur.com/wWzX9uB.png (twitter icon without padding)
-[2.2]: http://i.imgur.com/9I6NRUm.png (github icon without padding)
-[3.2]: https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/linkedin-3-16.png (LinkedIn icon without padding)
-
-
-<!-- links to your social media accounts -->
-
-[1]: https://twitter.com/ouweshs28
-[2]: https://github.com/Ouweshs28/
-[3]: https://www.linkedin.com/in/ouweshs28/
+[Website](https://ouwesh.com/) | [Blog](https://wiki.ouwesh.com/) | [LinkedIn](https://www.linkedin.com/in/ouweshs28/)
