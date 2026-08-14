@@ -1,0 +1,140 @@
+name: Update open-source contributions
+
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: read
+
+concurrency:
+  group: update-open-source-contributions
+  cancel-in-progress: false
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Refresh contribution list
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+
+            const username = context.repo.owner;
+            const pullRequests = await github.paginate(
+              github.rest.search.issuesAndPullRequests,
+              {
+                q: `is:pr author:${username} -user:${username}`,
+                sort: 'updated',
+                order: 'desc',
+                per_page: 100,
+              },
+            );
+
+            const byUpdatedAt = (left, right) =>
+              new Date(right.updated_at) - new Date(left.updated_at);
+            const byMergedAt = (left, right) =>
+              new Date(right.pull_request.merged_at) -
+              new Date(left.pull_request.merged_at);
+            const escapeMarkdown = (value) =>
+              value
+                .replace(/[\r\n]+/g, ' ')
+                .replace(/([\\`*_[\]<>])/g, '\\$1');
+            const formatDate = (value) =>
+              new Intl.DateTimeFormat('en', {
+                day: 'numeric',
+                month: 'short',
+                timeZone: 'UTC',
+                year: 'numeric',
+              }).format(new Date(value));
+            const formatPullRequest = (pullRequest, includeMergedDate) => {
+              const repository = new URL(pullRequest.repository_url).pathname.replace(
+                /^\/repos\//,
+                '',
+              );
+              const entry =
+                `- [${repository} #${pullRequest.number}](${pullRequest.html_url}) ` +
+                `- ${escapeMarkdown(pullRequest.title)}`;
+
+              return includeMergedDate
+                ? `${entry} _(merged ${formatDate(pullRequest.pull_request.merged_at)})_`
+                : entry;
+            };
+
+            const openPullRequests = pullRequests
+              .filter((pullRequest) => pullRequest.state === 'open')
+              .sort(byUpdatedAt)
+              .slice(0, 3);
+            const mergedPullRequests = pullRequests
+              .filter((pullRequest) => pullRequest.pull_request?.merged_at)
+              .sort(byMergedAt)
+              .slice(0, 3);
+
+            const sections = [
+              openPullRequests.length > 0
+                ? [
+                    '### Open pull requests',
+                    openPullRequests
+                      .map((pullRequest) => formatPullRequest(pullRequest, false))
+                      .join('\n'),
+                  ].join('\n\n')
+                : null,
+              mergedPullRequests.length > 0
+                ? [
+                    '### Recently merged',
+                    mergedPullRequests
+                      .map((pullRequest) => formatPullRequest(pullRequest, true))
+                      .join('\n'),
+                  ].join('\n\n')
+                : null,
+            ].filter(Boolean);
+
+            if (sections.length === 0) {
+              throw new Error(`No public external pull requests found for ${username}.`);
+            }
+
+            const readmePath = path.join(process.env.GITHUB_WORKSPACE, 'README.md');
+            const readme = fs.readFileSync(readmePath, 'utf8');
+            const startMarker = '<!-- CONTRIBUTIONS:START -->';
+            const endMarker = '<!-- CONTRIBUTIONS:END -->';
+            const startIndex = readme.indexOf(startMarker);
+            const endIndex = readme.indexOf(endMarker);
+
+            if (startIndex === -1 || endIndex === -1 || endIndex < startIndex) {
+              throw new Error('Contribution markers are missing or out of order in README.md.');
+            }
+
+            const contributionBlock = sections.join('\n\n');
+            const updatedReadme =
+              readme.slice(0, startIndex + startMarker.length) +
+              `\n${contributionBlock}\n` +
+              readme.slice(endIndex);
+
+            if (readme === updatedReadme) {
+              core.info('Open-source contributions are already current.');
+              return;
+            }
+
+            fs.writeFileSync(readmePath, updatedReadme);
+            core.info('Updated the open-source contribution list.');
+
+      - name: Commit updated contributions
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "No contribution changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: update open-source contributions"
+          git push

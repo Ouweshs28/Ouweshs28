@@ -26,9 +26,21 @@ I lead modernization initiatives, design maintainable microservice solutions, an
 
 ## Open-source contributions
 
-- [OpenRewrite Spring](https://github.com/openrewrite/rewrite-spring/pulls?q=is%3Apr+author%3AOuweshs28) - automated Spring Boot migration recipes, including MockMvc test configuration support for Spring Boot 4.
-- [QueryDSL](https://github.com/OpenFeign/querydsl/pull/1871) - improved serializer constant storage by replacing `LinkedList` with `ArrayList`.
-- [Blaze-Persistence](https://github.com/Blazebit/blaze-persistence/pull/2125) - added Jackson 3 integration for entity-view deserialization.
+Recent external pull requests are refreshed daily.
+
+<!-- CONTRIBUTIONS:START -->
+### Open pull requests
+
+- [openrewrite/rewrite-spring #1112](https://github.com/openrewrite/rewrite-spring/pull/1112) - Improve httpclient connect timeout migration
+- [openrewrite/rewrite-spring #1120](https://github.com/openrewrite/rewrite-spring/pull/1120) - Migrate MockMvc Hamcrest assertions to AssertJ
+- [Blazebit/blaze-persistence #2125](https://github.com/Blazebit/blaze-persistence/pull/2125) - Add Jackson 3 integration
+
+### Recently merged
+
+- [openrewrite/rewrite-spring #1127](https://github.com/openrewrite/rewrite-spring/pull/1127) - Upgrade Spring Cloud Stream for Boot 2.7 _(merged Aug 14, 2026)_
+- [openrewrite/rewrite-spring #1115](https://github.com/openrewrite/rewrite-spring/pull/1115) - Feat/migrate to stubborn contract _(merged Aug 3, 2026)_
+- [OpenFeign/querydsl #1871](https://github.com/OpenFeign/querydsl/pull/1871) - Performance: use ArrayList for serializer constants _(merged Jul 30, 2026)_
+<!-- CONTRIBUTIONS:END -->
 
 ## GitHub stats
 
