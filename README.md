@@ -31,9 +31,9 @@ Recent external pull requests are refreshed daily.
 <!-- CONTRIBUTIONS:START -->
 ### Open pull requests
 
+- [openrewrite/rewrite-spring #1112](https://github.com/openrewrite/rewrite-spring/pull/1112) - Improve httpclient connect timeout migration
 - [openrewrite/rewrite-migrate-java #1203](https://github.com/openrewrite/rewrite-migrate-java/pull/1203) - Add Lombok utility class migration recipe
 - [openrewrite/rewrite-migrate-java #1202](https://github.com/openrewrite/rewrite-migrate-java/pull/1202) - Add support for class-level Lombok \`@Getter\` and \`@Setter\` annotations
-- [openrewrite/rewrite-migrate-java #1201](https://github.com/openrewrite/rewrite-migrate-java/pull/1201) - Add Lombok Value recipe
 
 ### Recently merged
 
