@@ -31,15 +31,15 @@ Recent external pull requests are refreshed daily.
 <!-- CONTRIBUTIONS:START -->
 ### Open pull requests
 
-- [openrewrite/rewrite-spring #1112](https://github.com/openrewrite/rewrite-spring/pull/1112) - Improve httpclient connect timeout migration
+- [openrewrite/rewrite-spring #1120](https://github.com/openrewrite/rewrite-spring/pull/1120) - Migrate MockMvc Hamcrest assertions to AssertJ
 - [openrewrite/rewrite-migrate-java #1203](https://github.com/openrewrite/rewrite-migrate-java/pull/1203) - Add Lombok utility class migration recipe
 - [openrewrite/rewrite-migrate-java #1202](https://github.com/openrewrite/rewrite-migrate-java/pull/1202) - Add support for class-level Lombok \`@Getter\` and \`@Setter\` annotations
 
 ### Recently merged
 
+- [openrewrite/rewrite-spring #1112](https://github.com/openrewrite/rewrite-spring/pull/1112) - Improve httpclient connect timeout migration _(merged Aug 18, 2026)_
 - [openrewrite/rewrite-spring #1127](https://github.com/openrewrite/rewrite-spring/pull/1127) - Upgrade Spring Cloud Stream for Boot 2.7 _(merged Aug 14, 2026)_
 - [openrewrite/rewrite-spring #1115](https://github.com/openrewrite/rewrite-spring/pull/1115) - Feat/migrate to stubborn contract _(merged Aug 3, 2026)_
-- [OpenFeign/querydsl #1871](https://github.com/OpenFeign/querydsl/pull/1871) - Performance: use ArrayList for serializer constants _(merged Jul 30, 2026)_
 <!-- CONTRIBUTIONS:END -->
 
 ## GitHub stats
