@@ -31,7 +31,7 @@ Recent external pull requests are refreshed daily.
 <!-- CONTRIBUTIONS:START -->
 ### Open pull requests
 
-- [openrewrite/rewrite-spring #1120](https://github.com/openrewrite/rewrite-spring/pull/1120) - Migrate MockMvc Hamcrest assertions to AssertJ
+- [openrewrite/rewrite-migrate-java #1201](https://github.com/openrewrite/rewrite-migrate-java/pull/1201) - Add Lombok Value recipe
 - [openrewrite/rewrite-migrate-java #1203](https://github.com/openrewrite/rewrite-migrate-java/pull/1203) - Add Lombok utility class migration recipe
 - [openrewrite/rewrite-migrate-java #1202](https://github.com/openrewrite/rewrite-migrate-java/pull/1202) - Add support for class-level Lombok \`@Getter\` and \`@Setter\` annotations
 
