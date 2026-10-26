@@ -31,8 +31,8 @@ Recent external pull requests are refreshed daily.
 <!-- CONTRIBUTIONS:START -->
 ### Open pull requests
 
-- [Blazebit/blaze-persistence #2125](https://github.com/Blazebit/blaze-persistence/pull/2125) - Add Jackson 3 integration
 - [openrewrite/rewrite-spring #1120](https://github.com/openrewrite/rewrite-spring/pull/1120) - Migrate MockMvc Hamcrest assertions to AssertJ
+- [Blazebit/blaze-persistence #2125](https://github.com/Blazebit/blaze-persistence/pull/2125) - Add Jackson 3 integration
 
 ### Recently merged
 
